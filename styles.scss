@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+$pale_blue: hsl(225, 100%, 94%);
+$bright_blue: hsl(245, 75%, 52%);
+$very_pale_blue: hsl(225, 100%, 98%);
+$desaturated_blue: hsl(224, 23%, 55%);
+$dark_blue: hsl(223, 47%, 23%);
+$font-fam: 'Red Hat Display', sans-serif;
+
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-wrap: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100vw;
+  min-height: 100vh;
+  border: 3px dotted red;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  height: 100vh;
+  font-family: $font-fam;
+  border: 3px dotted red;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  border: 3px dotted red;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
