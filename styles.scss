@@ -30,12 +30,12 @@ body {
 
 main {
   background-color: $kinda_pale_blue;
-
+  font-size: 15px;
   display: flex;
   flex-direction: column;
   border-radius: 1rem;
   align-items: center;
-  justify-content: space-between;
+  // justify-content: space-between;
   width: 320px;
   height: 35rem;
   font-family: $font-fam;
@@ -51,34 +51,66 @@ img {
   text-align: center;
 
   h1 {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
+    margin: 1.3rem;
+    font-weight: 900;
   }
   p {
+    margin: 0 2rem;
     color: $desaturated_blue;
+    font-size: 15px;
+    line-height: 1.6;
   }
 }
 .block-2 {
   display: flex;
-  justify-content: space-around;
+  // justify-content: space-around;
   align-items: center;
-
-  width: 260px;
+  margin: 1.5rem;
+  width: 275px;
   height: 5rem;
-  border-radius: 1em;
+  border-radius: 0.75em;
   background-color: $very_pale_blue;
   // border: 1px dotted blue;
 }
+.icon {
+  margin: 1rem;
+}
+.plan {
+  font-size: 14px;
+  font-weight: 900;
+  margin-bottom: 0.25rem;
+}
+.price {
+  font-size: 14px;
+  font-weight: 900;
+  color: $desaturated_blue;
+}
+.change {
+  margin-left: 3rem;
+  font-size: 13px;
+  font-weight: 900;
+}
+.change:hover {
+  text-decoration: none;
+}
+
 button {
   font-size: 1rem;
-  height: 3rem;
-  width: 90%;
-  border-radius: 1em;
+  height: 3.2rem;
+  width: 87%;
+  border-radius: 0.75em;
   background-color: $bright_blue;
   color: $very_pale_blue;
+  font-weight: 700;
+  font-size: 15px;
 }
 .cancel {
   text-decoration: none;
   color: $desaturated_blue;
+  font-weight: 900;
+  padding: 1.5rem;
+  font-size: 15px;
 }
 
 .attribution {
