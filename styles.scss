@@ -6,7 +6,7 @@ $very_pale_blue: hsl(225, 100%, 98%);
 $desaturated_blue: hsl(224, 23%, 55%);
 $dark_blue: hsl(223, 47%, 23%);
 $font-fam: 'Red Hat Display', sans-serif;
-
+$kinda_pale_blue: hsl(225, 100%, 100%);
 * {
   margin: 0px;
   padding: 0;
@@ -14,6 +14,10 @@ $font-fam: 'Red Hat Display', sans-serif;
 }
 
 body {
+  background-image: url('images/pattern-background-mobile.svg');
+  background-color: $pale_blue;
+  background-repeat: no-repeat;
+  object-position: right top;
   display: flex;
   flex-wrap: flex;
   flex-direction: column;
@@ -21,24 +25,66 @@ body {
   align-items: center;
   max-width: 100vw;
   min-height: 100vh;
-  border: 3px dotted red;
+  // border: 3px dotted red;
 }
 
 main {
+  background-color: $kinda_pale_blue;
+
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  border-radius: 1rem;
   align-items: center;
+  justify-content: space-between;
   width: 320px;
-  height: 100vh;
+  height: 35rem;
   font-family: $font-fam;
-  border: 3px dotted red;
+  // border: 3px dotted red;
+}
+img {
+  width: 100%;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  margin-bottom: 0.5rem;
+}
+.block-1 {
+  text-align: center;
+
+  h1 {
+    font-size: 1.3rem;
+  }
+  p {
+    color: $desaturated_blue;
+  }
+}
+.block-2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  width: 260px;
+  height: 5rem;
+  border-radius: 1em;
+  background-color: $very_pale_blue;
+  // border: 1px dotted blue;
+}
+button {
+  font-size: 1rem;
+  height: 3rem;
+  width: 90%;
+  border-radius: 1em;
+  background-color: $bright_blue;
+  color: $very_pale_blue;
+}
+.cancel {
+  text-decoration: none;
+  color: $desaturated_blue;
 }
 
 .attribution {
   font-size: 11px;
   text-align: center;
-  border: 3px dotted red;
+  // border: 3px dotted red;
 }
 
 .attribution a {
