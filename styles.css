@@ -99,6 +99,12 @@ button {
   color: hsl(225, 100%, 98%);
   font-weight: 700;
   font-size: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: hsl(245, 75%, 75%);
+  border: 2px solid hsl(245, 75%, 75%);
 }
 
 .cancel {

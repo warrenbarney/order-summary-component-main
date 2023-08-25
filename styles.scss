@@ -7,6 +7,7 @@ $desaturated_blue: hsl(224, 23%, 55%);
 $dark_blue: hsl(223, 47%, 23%);
 $font-fam: 'Red Hat Display', sans-serif;
 $kinda_pale_blue: hsl(225, 100%, 100%);
+$not_bright_blue: hsl(245, 75%, 75%);
 * {
   margin: 0px;
   padding: 0;
@@ -104,6 +105,12 @@ button {
   color: $very_pale_blue;
   font-weight: 700;
   font-size: 15px;
+
+  cursor: pointer;
+}
+button:hover {
+  background-color: $not_bright_blue;
+  border: 2px solid $not_bright_blue;
 }
 .cancel {
   text-decoration: none;
