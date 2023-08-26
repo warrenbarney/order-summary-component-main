@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
-
 * {
   margin: 0px;
   padding: 0;
@@ -15,14 +14,14 @@ body {
   background-color: hsl(225, 100%, 94%);
   background-repeat: no-repeat;
   -o-object-position: right top;
-  object-position: right top;
+     object-position: right top;
   display: flex;
   flex-wrap: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 100vw;
-  min-height: 100vh;
+  width: 100vw;
+  height: 100vh;
 }
 
 main {
@@ -31,8 +30,7 @@ main {
   flex-direction: column;
   border-radius: 1.3rem;
   align-items: center;
-  width: 22rem;
-  height: 37.5rem;
+  width: 21.8rem;
   font-family: "Red Hat Display", sans-serif;
 }
 
@@ -40,23 +38,21 @@ img {
   width: 100%;
   border-top-left-radius: 1.3rem;
   border-top-right-radius: 1.3rem;
-  padding-bottom: 1rem;
 }
 
 .block-1 {
   text-align: center;
 }
-
 .block-1 h1 {
   font-size: 1.5rem;
-  padding: 0.75em;
+  padding-top: 2rem;
+  padding-bottom: 1.1rem;
   font-weight: 900;
 }
-
 .block-1 p {
   margin: 0 2.5rem;
   color: hsl(224, 23%, 55%);
-  line-height: 1.6;
+  line-height: 1.65;
 }
 
 .block-2 {
@@ -99,7 +95,7 @@ img {
 
 button {
   font-size: 1rem;
-  padding: 1.15em;
+  padding: 1.1em;
   width: 19rem;
   border-radius: 0.75em;
   background-color: hsl(245, 75%, 52%);
@@ -118,7 +114,8 @@ button:hover {
   text-decoration: none;
   color: hsl(224, 23%, 55%);
   font-weight: 900;
-  margin: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 2.2rem;
 }
 
 .attribution {
@@ -134,50 +131,46 @@ button:hover {
   html {
     font-size: 18.5px;
   }
-
   body {
     background-image: url("images/pattern-background-desktop.svg");
   }
-
   img {
-    padding-bottom: 1.45rem;
+    padding-bottom: 0.5rem;
   }
-
   main {
-    width: 24.25rem;
+    width: 24.2rem;
   }
-
   .block-1 h1 {
     font-size: 1.5rem;
     font-weight: 900;
   }
-
   .block-1 p {
     font-size: 0.9rem;
     margin: 0 2.5rem;
     color: hsl(224, 23%, 55%);
-    line-height: 1.6;
+    line-height: 1.55;
   }
-
   .plan {
     font-size: 0.9rem;
   }
-
   .price {
     font-size: 0.9rem;
   }
-
   .change {
     font-size: 0.8rem;
   }
-
+  .block-2 {
+    padding: 0.4em 0.2em;
+    margin-top: 1rem;
+    margin-bottom: 1.6rem;
+  }
   button {
     font-size: 0.8rem;
+    padding: 0.9rem;
   }
-
   .cancel {
     font-size: 0.8rem;
+    margin-bottom: 2.6rem;
+    margin-top: 1.8rem;
   }
-}
-
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
