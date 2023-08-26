@@ -130,9 +130,12 @@ button:hover {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-@media (min-width: 1020px) {
+@media (min-width: 765px) {
   html {
     font-size: 18.5px;
+  }
+  body {
+    background-image: url('images/pattern-background-desktop.svg');
   }
   img {
     padding-bottom: 1.45rem;
