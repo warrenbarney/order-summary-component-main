@@ -16,8 +16,6 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -34,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Git Hub](https://github.com/warrenbarney/order-summary-component-main)
-- Live Site URL: [Netlify](https://shiny-faun-f729dd.netlify.app/)
+- Live Site URL: [Netlify](https://shiny-faun-f729dd.netlify.app/ )
 
 ## My process
 
