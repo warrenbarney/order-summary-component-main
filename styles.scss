@@ -8,14 +8,17 @@ $dark_blue: hsl(223, 47%, 23%);
 $font-fam: 'Red Hat Display', sans-serif;
 $kinda_pale_blue: hsl(225, 100%, 100%);
 $not_bright_blue: hsl(245, 75%, 75%);
+
 * {
   margin: 0px;
   padding: 0;
   box-sizing: border-box;
 }
+
 html {
   font-size: 15px;
 }
+
 body {
   background-image: url('images/pattern-background-mobile.svg');
   background-color: $pale_blue;
@@ -43,6 +46,7 @@ main {
   font-family: $font-fam;
   // border: 3px dotted red;
 }
+
 img {
   width: 100%;
   border-top-left-radius: 1.3rem;
@@ -50,6 +54,7 @@ img {
 
   padding-bottom: 1rem;
 }
+
 .block-1 {
   text-align: center;
 
@@ -58,12 +63,14 @@ img {
     padding: 0.75em;
     font-weight: 900;
   }
+
   p {
     margin: 0 2.5rem;
     color: $desaturated_blue;
     line-height: 1.6;
   }
 }
+
 .block-2 {
   display: flex;
   // justify-content: space-around;
@@ -75,19 +82,23 @@ img {
   background-color: $very_pale_blue;
   // border: 1px dotted blue;
 }
+
 .icon {
   margin: 1rem;
 }
+
 .plan {
   font-size: 0.95rem;
   font-weight: 900;
   margin-bottom: 0.25rem;
 }
+
 .price {
   font-size: 0.95rem;
   font-weight: 500;
   color: $desaturated_blue;
 }
+
 .change {
   padding-left: 4rem;
   font-size: 0.85rem;
@@ -95,6 +106,7 @@ img {
   color: $bright_blue;
   text-align: end;
 }
+
 .change:hover {
   text-decoration: none;
 }
@@ -111,9 +123,11 @@ button {
   cursor: pointer;
   box-shadow: 0 5px 25px $not_bright_blue;
 }
+
 button:hover {
   background-color: $not_bright_blue;
 }
+
 .cancel {
   text-decoration: none;
   color: $desaturated_blue;
@@ -130,36 +144,45 @@ button:hover {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
 @media (min-width: 765px) {
   html {
     font-size: 18.5px;
   }
+
   body {
     background-image: url('images/pattern-background-desktop.svg');
   }
+
   img {
     padding-bottom: 1.45rem;
   }
+
   main {
     width: 24rem;
   }
+
   .block-1 h1 {
     font-size: 1.5rem;
 
     font-weight: 900;
   }
+
   .block-1 p {
     font-size: 0.9rem;
     margin: 0 2.5rem;
     color: $desaturated_blue;
     line-height: 1.6;
   }
+
   .plan {
     font-size: 0.9rem;
   }
+
   .price {
     font-size: 0.9rem;
   }
+
   .change {
     font-size: 0.8rem;
   }
@@ -167,6 +190,7 @@ button:hover {
   button {
     font-size: 0.8rem;
   }
+
   .cancel {
     font-size: 0.8rem;
   }

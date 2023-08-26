@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
 * {
   margin: 0px;
   padding: 0;
@@ -14,7 +15,7 @@ body {
   background-color: hsl(225, 100%, 94%);
   background-repeat: no-repeat;
   -o-object-position: right top;
-     object-position: right top;
+  object-position: right top;
   display: flex;
   flex-wrap: flex;
   flex-direction: column;
@@ -45,11 +46,13 @@ img {
 .block-1 {
   text-align: center;
 }
+
 .block-1 h1 {
   font-size: 1.5rem;
   padding: 0.75em;
   font-weight: 900;
 }
+
 .block-1 p {
   margin: 0 2.5rem;
   color: hsl(224, 23%, 55%);
@@ -131,38 +134,50 @@ button:hover {
   html {
     font-size: 18.5px;
   }
+
   body {
     background-image: url("images/pattern-background-desktop.svg");
   }
+
   img {
     padding-bottom: 1.45rem;
   }
+
   main {
-    width: 24rem;
+    width: 24.25rem;
   }
+
   .block-1 h1 {
     font-size: 1.5rem;
     font-weight: 900;
   }
+
   .block-1 p {
     font-size: 0.9rem;
     margin: 0 2.5rem;
     color: hsl(224, 23%, 55%);
     line-height: 1.6;
   }
+
   .plan {
     font-size: 0.9rem;
   }
+
   .price {
     font-size: 0.9rem;
   }
+
   .change {
     font-size: 0.8rem;
   }
+
   button {
     font-size: 0.8rem;
   }
+
   .cancel {
     font-size: 0.8rem;
   }
-}/*# sourceMappingURL=styles.css.map */
+}
+
+/*# sourceMappingURL=styles.css.map */
