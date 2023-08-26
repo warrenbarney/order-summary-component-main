@@ -102,7 +102,7 @@ img {
 button {
   font-size: 1rem;
   padding: 1.15em;
-  width: 80%;
+  width: 19rem;
   border-radius: 0.75em;
   background-color: $bright_blue;
   color: $very_pale_blue;
@@ -113,13 +113,12 @@ button {
 }
 button:hover {
   background-color: $not_bright_blue;
-  border: 2px solid $not_bright_blue;
 }
 .cancel {
   text-decoration: none;
   color: $desaturated_blue;
   font-weight: 900;
-  padding: 1.5rem;
+  margin: 1.5rem;
 }
 
 .attribution {
